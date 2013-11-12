@@ -17,6 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "ember": "billysbilling/bower-ember#~1.3.0"
+    "ember": "billysbilling/bower-ember#~1.3.0",
+    "i18n": "billysbilling/i18n#~1.0.0",
+    "storage": "billysbilling/storage#~0.1.0"
   }
 }
