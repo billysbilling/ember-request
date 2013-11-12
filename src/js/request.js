@@ -1,7 +1,7 @@
 var i18n = require('i18n').module('ember_request', require.resolve('../locales')),
     storage = require('storage');
 
-return Em.Object.createWithMixins(Em.Evented, {
+module.exports = Em.Object.createWithMixins(Em.Evented, {
     activeAccessTokenRefreshRequest: null,
 
     setLastActiveTimeInterval: function() {
