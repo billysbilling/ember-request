@@ -1,0 +1,22 @@
+{
+  "name": "ember-request",
+  "homepage": "https://github.com/billysbilling/ember-request",
+  "main": "src/js/request.js",
+  "billy-builder": {
+    "include": [
+      "src/js",
+      "src/locales"
+    ]
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "billysbilling/bower-ember#~1.3.0"
+  }
+}
